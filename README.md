@@ -1,4 +1,4 @@
-# CJKFont specification realignment
+# CJK Font specification realignment
 
 The goal of this repository is to identify discrepancies between the actual implementation of CJK OpenType fonts
 and what is outlined in the OpenType specifications.
