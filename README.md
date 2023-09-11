@@ -17,7 +17,10 @@ ensuring they accurately reflect the real-world implementation of these fonts.
 
 副次的な目標として、上記の作業が終了後、その過程で見つかったフォントやUnicodeの問題点があれば、それらについて議論を行い、必要なら提案まで持ってゆく
 
-## Files
+## Tables
 - [font_tables.md](https://github.com/jcitpc/CJKFont/blob/main/font_tables.md): List of font tables used by CJK fonts
 - [GSUB.md](https://github.com/jcitpc/CJKFont/blob/main/GSUB.md): List layout tags that use the GSUB table
 - [GPOS.md](https://github.com/jcitpc/CJKFont/blob/main/GPOS.md): List layout tags that use the GPOS table
+
+## Proposal documents
+- [palt_kern.md](https://github.com/jcitpc/CJKFont/blob/main/docs/palt_kern.md)
