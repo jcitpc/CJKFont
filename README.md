@@ -1,6 +1,6 @@
 # CJK Font specification realignment
 
-The goal of this repository is to identify discrepancies between the actual implementation of CJK OpenType fonts
+The goal of this project is to identify discrepancies between the actual implementation of CJK OpenType fonts
 and what is outlined in the OpenType specifications.
 Based on these findings, we will then formulate proposals to amend the OpenType specifications,
 ensuring they accurately reflect the real-world implementation of these fonts.
