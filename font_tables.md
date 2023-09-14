@@ -1,8 +1,8 @@
 |table|分類|優先順位|CFF|TrueType|コメント|
 |:---|:---|:---:|:---|:---|:---|
-|OS/2|共通|1|√|√|要注意 by 山本さん|
-|BASE|CFF|1|√|M-optional only if converted from CFF|要注意 by 山本さん|
-|VORG|CFF|**0**|√||問題あり：optional と書いてあるが、縦書きに必須|
+|OS/2|共通|1|√|√|山本さん：要注意|
+|BASE|CFF|1|√|M-optional only if converted from CFF|山本さん：要注意|
+|VORG|CFF|**0**|√||木田：問題あり。optional と書いてあるが、縦書きに必須|
 |CFF|CFF||?|||
 |vmtx/vhea|共通|?|√|√||
 |cmap|共通|?|√|√||
