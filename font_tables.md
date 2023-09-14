@@ -2,7 +2,7 @@
 |:---|:---|:---:|:---|:---|:---|
 |OS/2|共通|√|√|√|要注意 by 山本さん|
 |BASE|CFF|√|√|M-optional only if converted from CFF|要注意 by 山本さん|
-|VORG|CFF|issue|√||問題がわかっている|
+|VORG|CFF|issue|√||問題あり：optional と書いてあるが、縦書きに必須|
 |CFF|CFF||√|||
 |vmtx/vhea|共通|√|√|√||
 |cmap|共通||√|√||
