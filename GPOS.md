@@ -13,7 +13,7 @@
 |vrtr|*|?|||||村田:追加
 
 木田：村田さん、vrt2/vrtr はどこからも報告されていませんが、議論する必要があると言うことですか？
-村田: ええ、誰も使っていないものなら、落とすか注をつけるか。なお、CSS Writing Modesではvrt2は使わないと書いてあり、vrtrは将来期待できる機能のように書かれています。
+村田: ええ、誰も使っていないものなら、落とすか注をつけるか。なお、CSS Writing Modesでは[vrt2は使わない](https://www.w3.org/TR/css-writing-modes-3/#vertical-orientations)と書いてあり、[vrtrは将来期待できる機能](https://www.w3.org/TR/css-writing-modes-3/#typeset-sideways)のように書かれています。
 
 ## Remarks
 
