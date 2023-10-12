@@ -2,7 +2,7 @@
 Nat McCully, Principal Scientist, Adobe 
 
 ## Introduction
-For CJK font developers, the wording in the documentation of the ‘kern’ and ‘palt’  features is confusing.
+For CJK font and text layout engine developers supporting CJK fonts, the wording in the documentation of the ‘kern’ and ‘palt’  features is confusing.
 This proposal aims to improve it so font developers will know how to define the features,
 and application developers will know how to set default behaviors for those features. 
 
@@ -50,18 +50,18 @@ There are several issues with this:
 I would improve the documentation with slight re-wording and addition of some more CJK-related information.
 
 In the ‘kern’ documentation, change: 
->*UI suggestion:* This feature should be active by default for horizontal text ~~setting~~ **in scripts other than mono-spaced CJK**.
+>*UI suggestion:* This feature should be active by default for horizontal text ~~setting~~ **that is: 1) set in a proportional font, or 2) on the proportional-width glyphs (in fonts that mix monospaced and proportional glyphs, such as CJK fonts)**.
 >Applications may wish to allow users to add further manually-specified adjustments to suit specific needs and tastes. 
 >
->*Script/language sensitivity:* ~~None~~ **By default shall not be activated on monospaced (e.g. CJK script) glyphs,
->but may be activated on any proportional (e.g. non-CJK) glyphs.**
+>*Script/language sensitivity:* ~~None~~ **By default shall not be activated on monospaced glyphs,
+>but may be activated on any proportional-width glyphs.**
 >
 >*Feature interaction:* If 'kern' is activated, 'palt' must also be activated if it exists.
 >If 'palt' is activated, there is no requirement that 'kern' must also be activated. 
 
 In addition to the above, we could consider adding a note explaining 
 that CJK fonts often contain both proportional Latin and monospaced CJK glyphs, 
-which makes kerning the glyphs more complex than in the case of an all-proportional font. 
+which makes kerning the glyphs more complex than in the case of an all-proportional font. CJK fonts have been implemented this way since their inception.
 When the font contains proportional glyphs, 
 addition of kerning pair information would mean only those pairs with kern adjustments would be set proportionally, 
 making the number of pairs likely to be very high and the cost of production very high as well. 
